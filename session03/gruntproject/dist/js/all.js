@@ -8,6 +8,10 @@ const on_click = e => {
 document.addEventListener('DOMContentLoaded', e => {
 	document.querySelector('#clickable').addEventListener('click', on_click, false);
 });
+
+const hello = () => {
+	console.log('Hello!');
+};
 /************************/
 /* JS hover */
 
@@ -23,3 +27,7 @@ document.addEventListener('DOMContentLoaded', e => {
 	document.querySelector('#hoverable').addEventListener('mouseover', on_mouseover);
 	document.querySelector('#hoverable').addEventListener('mouseout', on_mouseout);
 });
+
+const hello2 = () => {
+	console.log('Hello!');
+};
