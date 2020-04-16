@@ -1,0 +1,28 @@
+.icon2-icon_1 {
+  display: block;
+  background-image: url(../images/sprite2.png);
+  background-position: 0px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon2-icon_2 {
+  display: block;
+  background-image: url(../images/sprite2.png);
+  background-position: -64px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon2-icon_3 {
+  display: block;
+  background-image: url(../images/sprite2.png);
+  background-position: 0px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon2-icon_4 {
+  display: block;
+  background-image: url(../images/sprite2.png);
+  background-position: -64px -64px;
+  width: 64px;
+  height: 64px;
+}
