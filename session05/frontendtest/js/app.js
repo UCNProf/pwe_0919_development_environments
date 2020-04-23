@@ -21,12 +21,16 @@ const on_courses_ul_click = e => {
 	}
 };
 
-window.addEventListener('DOMContentLoaded', e => {
+const initialize_elements = () => {
 	courses_ul = document.querySelector('ul#courses');
 	courseinfo_div = document.querySelector('div#courseinfo');
 	info_p = document.querySelector('p#info');
+};
 
+window.addEventListener('DOMContentLoaded', e => {
+	// For testing purposes these are commented out
+	//initialize_elements();
 	//Api.get_courses(display_courses);
 	
-	courses_ul.addEventListener('click', on_courses_ul_click);
+	//courses_ul.addEventListener('click', on_courses_ul_click);
 });

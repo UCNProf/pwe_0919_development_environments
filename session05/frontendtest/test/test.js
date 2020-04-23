@@ -2,6 +2,16 @@ mocha.setup('bdd');
 
 var assert = chai.assert;
 
+describe('initialize_elements', () => {
+	it('should set elements as variables typeof "object"', () => {
+		initialize_elements();
+		// var courses_ul, courseinfo_div, info_p;
+		assert.equal(typeof(courses_ul), 'object');
+		assert.equal(typeof(courseinfo_div), 'object');
+		assert.equal(typeof(info_p), 'object');
+	});
+});
+
 describe('display_courses', function() {
 	var data;
 
@@ -35,7 +45,6 @@ describe('display_course', function() {
 		assert.equal(document.querySelector('p#info').classList.contains('hide'), true);
 	});
 });
-
 
 describe('Course', function() {
 	var data;
