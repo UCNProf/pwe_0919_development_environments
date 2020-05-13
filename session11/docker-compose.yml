@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build: noteswebsite
+    restart: always
+    volumes:
+      - ./noteswebsite:/var/www
+    ports:
+      - 3000:3000
+  mongo:
+    build: notesdb
+    restart: always
